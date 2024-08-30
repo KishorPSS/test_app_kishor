@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "396008726305",
+    "project_id": "gurukul-notification",
+    "storage_bucket": "gurukul-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396008726305:android:a71ccf7da15c38bfb5a860",
+        "android_client_info": {
+          "package_name": "com.example.eschoolapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCC8Qe-CQlpY1Nv2Qb4Apt2FK9VVqQzpY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

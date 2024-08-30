@@ -1,0 +1,1 @@
+ /home/php5/StudioProjects/eschoolappnew/.dart_tool/flutter_build/0dd5c995cff54a4672ffa6b834f2ab4e/native_assets.yaml: 

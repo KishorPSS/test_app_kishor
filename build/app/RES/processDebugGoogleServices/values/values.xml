@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">396008726305</string>
+    <string name="google_api_key" translatable="false">AIzaSyDCC8Qe-CQlpY1Nv2Qb4Apt2FK9VVqQzpY</string>
+    <string name="google_app_id" translatable="false">1:396008726305:android:a71ccf7da15c38bfb5a860</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDCC8Qe-CQlpY1Nv2Qb4Apt2FK9VVqQzpY</string>
+    <string name="google_storage_bucket" translatable="false">gurukul-notification.appspot.com</string>
+    <string name="project_id" translatable="false">gurukul-notification</string>
+</resources>

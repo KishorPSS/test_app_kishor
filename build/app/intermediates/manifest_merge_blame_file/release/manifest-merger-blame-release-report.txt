@@ -1,0 +1,594 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.eschoolapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:2:5-66
+11-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:2:22-64
+12
+13    <queries>
+13-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+14        <intent>
+14-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+15            <action android:name="android.support.customtabs.action.CustomTabsService" />
+15-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+15-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+16        </intent>
+17    </queries>
+18
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+19-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+20-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+20-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+21-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+21-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+22    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[:flutter_local_notifications] /home/php5/StudioProjects/eschoolappnew/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-66
+22-->[:flutter_local_notifications] /home/php5/StudioProjects/eschoolappnew/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-63
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:26:22-79
+24    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+24-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/php5/.gradle/caches/transforms-3/9795f935fe855d399d23b12e1dfb271c/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:5-98
+24-->[com.google.android.recaptcha:recaptcha:18.4.0] /home/php5/.gradle/caches/transforms-3/9795f935fe855d399d23b12e1dfb271c/transformed/jetified-recaptcha-18.4.0/AndroidManifest.xml:9:22-95
+25
+26    <permission
+26-->[androidx.core:core:1.9.0] /home/php5/.gradle/caches/transforms-3/d9a7bda5b0a0d2fc08828ff145bfcb70/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+27        android:name="com.example.eschoolapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+27-->[androidx.core:core:1.9.0] /home/php5/.gradle/caches/transforms-3/d9a7bda5b0a0d2fc08828ff145bfcb70/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+28        android:protectionLevel="signature" />
+28-->[androidx.core:core:1.9.0] /home/php5/.gradle/caches/transforms-3/d9a7bda5b0a0d2fc08828ff145bfcb70/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+29
+30    <uses-permission android:name="com.example.eschoolapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+30-->[androidx.core:core:1.9.0] /home/php5/.gradle/caches/transforms-3/d9a7bda5b0a0d2fc08828ff145bfcb70/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+30-->[androidx.core:core:1.9.0] /home/php5/.gradle/caches/transforms-3/d9a7bda5b0a0d2fc08828ff145bfcb70/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+31
+32    <application
+33        android:name="android.app.Application"
+33-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:5:9-42
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.9.0] /home/php5/.gradle/caches/transforms-3/d9a7bda5b0a0d2fc08828ff145bfcb70/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+35        android:extractNativeLibs="false"
+36        android:icon="@mipmap/ic_launcher"
+36-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:6:9-43
+37        android:label="eSchool+ Student Portal" >
+37-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:4:9-48
+38        <activity
+38-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:8:9-28:20
+39            android:name="com.example.eschoolapp.MainActivity"
+39-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:9:13-41
+40            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+40-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:13:13-163
+41            android:exported="true"
+41-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:10:13-36
+42            android:hardwareAccelerated="true"
+42-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:14:13-47
+43            android:launchMode="singleTop"
+43-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:11:13-43
+44            android:theme="@style/LaunchTheme"
+44-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:12:13-47
+45            android:windowSoftInputMode="adjustResize" >
+45-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:15:13-55
+46
+47            <!--
+48                 Specifies an Android theme to apply to this Activity as soon as
+49                 the Android process has started. This theme is visible to the user
+50                 while the Flutter UI initializes. After that, this theme continues
+51                 to determine the Window background behind the Flutter UI.
+52            -->
+53            <meta-data
+53-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:20:13-23:17
+54                android:name="io.flutter.embedding.android.NormalTheme"
+54-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:21:15-70
+55                android:resource="@style/NormalTheme" />
+55-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:22:15-52
+56
+57            <intent-filter>
+57-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:24:13-27:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:25:17-68
+58-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:25:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:26:17-76
+60-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:26:27-74
+61            </intent-filter>
+62        </activity>
+63        <!--
+64             Don't delete the meta-data below.
+65             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+66        -->
+67        <meta-data
+67-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:31:9-33:33
+68            android:name="flutterEmbedding"
+68-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:32:13-44
+69            android:value="2" />
+69-->/home/php5/StudioProjects/eschoolappnew/android/app/src/main/AndroidManifest.xml:33:13-30
+70
+71        <activity
+71-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+72            android:name="com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity"
+72-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-112
+73            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+73-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+74            android:exported="false"
+74-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+75            android:theme="@style/AppTheme" />
+75-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+76        <activity
+76-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+77            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity"
+77-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-120
+78            android:exported="false"
+78-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+79            android:theme="@style/ThemeTransparent" />
+79-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+80        <activity
+80-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+81            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity"
+81-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-114
+82            android:exported="false"
+82-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+83            android:theme="@style/ThemeTransparent" />
+83-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+84        <activity
+84-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+85            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+85-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-134
+86            android:exported="false"
+86-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+87            android:launchMode="singleInstance"
+87-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+88            android:theme="@style/ThemeTransparent" />
+88-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+89        <activity
+89-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+90            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+90-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-128
+91            android:exported="false"
+91-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+92            android:launchMode="singleInstance"
+92-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+93            android:theme="@style/ThemeTransparent" />
+93-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+94
+95        <receiver
+95-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+96            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver"
+96-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-119
+97            android:enabled="true"
+97-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+98            android:exported="false" />
+98-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+99
+100        <meta-data
+100-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+101            android:name="io.flutter.embedded_views_preview"
+101-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+102            android:value="true" />
+102-->[:flutter_inappwebview_android] /home/php5/StudioProjects/eschoolappnew/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+103
+104        <service
+104-->[:firebase_auth] /home/php5/StudioProjects/eschoolappnew/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+105            android:name="com.google.firebase.components.ComponentDiscoveryService"
+105-->[:firebase_auth] /home/php5/StudioProjects/eschoolappnew/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+106            android:directBootAware="true"
+106-->[com.google.firebase:firebase-common:21.0.0] /home/php5/.gradle/caches/transforms-3/c32fb5eb96649f479ff139e47e5cfa45/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+107            android:exported="false" >
+107-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:68:13-37
+108            <meta-data
+108-->[:firebase_auth] /home/php5/StudioProjects/eschoolappnew/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+109                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+109-->[:firebase_auth] /home/php5/StudioProjects/eschoolappnew/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[:firebase_auth] /home/php5/StudioProjects/eschoolappnew/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+111            <meta-data
+111-->[:cloud_firestore] /home/php5/StudioProjects/eschoolappnew/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+112                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+112-->[:cloud_firestore] /home/php5/StudioProjects/eschoolappnew/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[:cloud_firestore] /home/php5/StudioProjects/eschoolappnew/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+114            <meta-data
+114-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+115                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+115-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+117            <meta-data
+117-->[:firebase_core] /home/php5/StudioProjects/eschoolappnew/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+118                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+118-->[:firebase_core] /home/php5/StudioProjects/eschoolappnew/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[:firebase_core] /home/php5/StudioProjects/eschoolappnew/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:69:13-71:85
+121                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+121-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:70:17-109
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:71:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-firestore:25.0.0] /home/php5/.gradle/caches/transforms-3/06c61467e69f30392dcf9342478f18ff/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:17:13-19:85
+124                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+124-->[com.google.firebase:firebase-firestore:25.0.0] /home/php5/.gradle/caches/transforms-3/06c61467e69f30392dcf9342478f18ff/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:18:17-122
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-firestore:25.0.0] /home/php5/.gradle/caches/transforms-3/06c61467e69f30392dcf9342478f18ff/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:19:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-firestore:25.0.0] /home/php5/.gradle/caches/transforms-3/06c61467e69f30392dcf9342478f18ff/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:20:13-22:85
+127                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+127-->[com.google.firebase:firebase-firestore:25.0.0] /home/php5/.gradle/caches/transforms-3/06c61467e69f30392dcf9342478f18ff/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:21:17-111
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-firestore:25.0.0] /home/php5/.gradle/caches/transforms-3/06c61467e69f30392dcf9342478f18ff/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:22:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:57:13-59:85
+130                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+130-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:58:17-122
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:59:17-82
+132            <meta-data
+132-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:60:13-62:85
+133                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+133-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:61:17-119
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:62:17-82
+135            <meta-data
+135-->[com.google.firebase:firebase-iid:21.1.0] /home/php5/.gradle/caches/transforms-3/e85a376026f9936f633bfe02b56b4a77/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+136                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+136-->[com.google.firebase:firebase-iid:21.1.0] /home/php5/.gradle/caches/transforms-3/e85a376026f9936f633bfe02b56b4a77/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-iid:21.1.0] /home/php5/.gradle/caches/transforms-3/e85a376026f9936f633bfe02b56b4a77/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+138            <meta-data
+138-->[com.google.firebase:firebase-installations:18.0.0] /home/php5/.gradle/caches/transforms-3/1406251ac0e3d6fe8f36a85422fa962e/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+139                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+139-->[com.google.firebase:firebase-installations:18.0.0] /home/php5/.gradle/caches/transforms-3/1406251ac0e3d6fe8f36a85422fa962e/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.firebase:firebase-installations:18.0.0] /home/php5/.gradle/caches/transforms-3/1406251ac0e3d6fe8f36a85422fa962e/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-installations:18.0.0] /home/php5/.gradle/caches/transforms-3/1406251ac0e3d6fe8f36a85422fa962e/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+142                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+142-->[com.google.firebase:firebase-installations:18.0.0] /home/php5/.gradle/caches/transforms-3/1406251ac0e3d6fe8f36a85422fa962e/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-installations:18.0.0] /home/php5/.gradle/caches/transforms-3/1406251ac0e3d6fe8f36a85422fa962e/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/php5/.gradle/caches/transforms-3/f2b1f27f8a7872f06d90b163a41eec61/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+145                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+145-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/php5/.gradle/caches/transforms-3/f2b1f27f8a7872f06d90b163a41eec61/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/php5/.gradle/caches/transforms-3/f2b1f27f8a7872f06d90b163a41eec61/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-common:21.0.0] /home/php5/.gradle/caches/transforms-3/c32fb5eb96649f479ff139e47e5cfa45/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+148                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+148-->[com.google.firebase:firebase-common:21.0.0] /home/php5/.gradle/caches/transforms-3/c32fb5eb96649f479ff139e47e5cfa45/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-common:21.0.0] /home/php5/.gradle/caches/transforms-3/c32fb5eb96649f479ff139e47e5cfa45/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-datatransport:18.2.0] /home/php5/.gradle/caches/transforms-3/3477049220c9e06a7f8223dacc277771/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+151                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+151-->[com.google.firebase:firebase-datatransport:18.2.0] /home/php5/.gradle/caches/transforms-3/3477049220c9e06a7f8223dacc277771/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-datatransport:18.2.0] /home/php5/.gradle/caches/transforms-3/3477049220c9e06a7f8223dacc277771/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+153        </service>
+154        <service
+154-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+155            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+155-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+156            android:exported="false"
+156-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+157            android:permission="android.permission.BIND_JOB_SERVICE" />
+157-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+158        <service
+158-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+159            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+159-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+160            android:exported="false" >
+160-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+161            <intent-filter>
+161-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+162                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+162-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+162-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+163            </intent-filter>
+164        </service>
+165
+166        <receiver
+166-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+167            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+167-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+168            android:exported="true"
+168-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+169            android:permission="com.google.android.c2dm.permission.SEND" >
+169-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+170            <intent-filter>
+170-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+171                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+171-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+171-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+172            </intent-filter>
+173        </receiver>
+174
+175        <provider
+175-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+176            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+176-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+177            android:authorities="com.example.eschoolapp.flutterfirebasemessaginginitprovider"
+177-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+178            android:exported="false"
+178-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+179            android:initOrder="99" />
+179-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+180
+181        <activity
+181-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:29:9-46:20
+182            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+182-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:30:13-80
+183            android:excludeFromRecents="true"
+183-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:31:13-46
+184            android:exported="true"
+184-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:32:13-36
+185            android:launchMode="singleTask"
+185-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:33:13-44
+186            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+186-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:34:13-72
+187            <intent-filter>
+187-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:35:13-45:29
+188                <action android:name="android.intent.action.VIEW" />
+188-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+188-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+189
+190                <category android:name="android.intent.category.DEFAULT" />
+190-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+190-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+191                <category android:name="android.intent.category.BROWSABLE" />
+191-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+191-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+192
+193                <data
+193-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+194                    android:host="firebase.auth"
+194-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+195                    android:path="/"
+195-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+196                    android:scheme="genericidp" />
+196-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+197            </intent-filter>
+198        </activity>
+199        <activity
+199-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:47:9-64:20
+200            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+200-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:48:13-79
+201            android:excludeFromRecents="true"
+201-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:49:13-46
+202            android:exported="true"
+202-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:50:13-36
+203            android:launchMode="singleTask"
+203-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:51:13-44
+204            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+204-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:52:13-72
+205            <intent-filter>
+205-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:53:13-63:29
+206                <action android:name="android.intent.action.VIEW" />
+206-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:17-69
+206-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:36:25-66
+207
+208                <category android:name="android.intent.category.DEFAULT" />
+208-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:17-76
+208-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:38:27-73
+209                <category android:name="android.intent.category.BROWSABLE" />
+209-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:17-78
+209-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:39:27-75
+210
+211                <data
+211-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:41:17-44:51
+212                    android:host="firebase.auth"
+212-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:42:21-49
+213                    android:path="/"
+213-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:43:21-37
+214                    android:scheme="recaptcha" />
+214-->[com.google.firebase:firebase-auth:23.0.0] /home/php5/.gradle/caches/transforms-3/53b7bced70034be00ed7ce530143b89f/transformed/jetified-firebase-auth-23.0.0/AndroidManifest.xml:44:21-48
+215            </intent-filter>
+216        </activity>
+217
+218        <receiver
+218-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:29:9-40:20
+219            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+219-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:30:13-78
+220            android:exported="true"
+220-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:31:13-36
+221            android:permission="com.google.android.c2dm.permission.SEND" >
+221-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:32:13-73
+222            <intent-filter>
+222-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+223                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+223-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+223-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+224            </intent-filter>
+225
+226            <meta-data
+226-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:37:13-39:40
+227                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+227-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:38:17-92
+228                android:value="true" />
+228-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:39:17-37
+229        </receiver>
+230        <!--
+231             FirebaseMessagingService performs security checks at runtime,
+232             but set to not exported to explicitly avoid allowing another app to call it.
+233        -->
+234        <service
+234-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:46:9-53:19
+235            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+235-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:47:13-82
+236            android:directBootAware="true"
+236-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:48:13-43
+237            android:exported="false" >
+237-->[com.google.firebase:firebase-messaging:24.0.0] /home/php5/.gradle/caches/transforms-3/0bbdd579509bf9bb4fe2094e659d215e/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:49:13-37
+238            <intent-filter android:priority="-500" >
+238-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+239                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+239-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+239-->[:firebase_messaging] /home/php5/StudioProjects/eschoolappnew/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+240            </intent-filter>
+241        </service>
+242        <service
+242-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+243            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+243-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+244            android:enabled="true"
+244-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+245            android:exported="false" >
+245-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+246            <meta-data
+246-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+247                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+247-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+248                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+248-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+249        </service>
+250
+251        <activity
+251-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+252            android:name="androidx.credentials.playservices.HiddenActivity"
+252-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+253            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+253-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+254            android:enabled="true"
+254-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+255            android:exported="false"
+255-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+256            android:fitsSystemWindows="true"
+256-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+257            android:theme="@style/Theme.Hidden" >
+257-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/php5/.gradle/caches/transforms-3/695f5cc6b54bc846461884d033bb30d7/transformed/jetified-credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+258        </activity>
+259
+260        <provider
+260-->[com.google.firebase:firebase-common:21.0.0] /home/php5/.gradle/caches/transforms-3/c32fb5eb96649f479ff139e47e5cfa45/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+261            android:name="com.google.firebase.provider.FirebaseInitProvider"
+261-->[com.google.firebase:firebase-common:21.0.0] /home/php5/.gradle/caches/transforms-3/c32fb5eb96649f479ff139e47e5cfa45/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+262            android:authorities="com.example.eschoolapp.firebaseinitprovider"
+262-->[com.google.firebase:firebase-common:21.0.0] /home/php5/.gradle/caches/transforms-3/c32fb5eb96649f479ff139e47e5cfa45/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+263            android:directBootAware="true"
+263-->[com.google.firebase:firebase-common:21.0.0] /home/php5/.gradle/caches/transforms-3/c32fb5eb96649f479ff139e47e5cfa45/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+264            android:exported="false"
+264-->[com.google.firebase:firebase-common:21.0.0] /home/php5/.gradle/caches/transforms-3/c32fb5eb96649f479ff139e47e5cfa45/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+265            android:initOrder="100" />
+265-->[com.google.firebase:firebase-common:21.0.0] /home/php5/.gradle/caches/transforms-3/c32fb5eb96649f479ff139e47e5cfa45/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+266
+267        <uses-library
+267-->[androidx.window:window:1.0.0-beta04] /home/php5/.gradle/caches/transforms-3/076eb9235982ee06112d76594ea8585f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+268            android:name="androidx.window.extensions"
+268-->[androidx.window:window:1.0.0-beta04] /home/php5/.gradle/caches/transforms-3/076eb9235982ee06112d76594ea8585f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+269            android:required="false" />
+269-->[androidx.window:window:1.0.0-beta04] /home/php5/.gradle/caches/transforms-3/076eb9235982ee06112d76594ea8585f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+270        <uses-library
+270-->[androidx.window:window:1.0.0-beta04] /home/php5/.gradle/caches/transforms-3/076eb9235982ee06112d76594ea8585f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+271            android:name="androidx.window.sidecar"
+271-->[androidx.window:window:1.0.0-beta04] /home/php5/.gradle/caches/transforms-3/076eb9235982ee06112d76594ea8585f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+272            android:required="false" />
+272-->[androidx.window:window:1.0.0-beta04] /home/php5/.gradle/caches/transforms-3/076eb9235982ee06112d76594ea8585f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+273
+274        <activity
+274-->[com.google.android.gms:play-services-auth:20.7.0] /home/php5/.gradle/caches/transforms-3/4404bb8721373756f4fc8fd34059d6c0/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+275            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+275-->[com.google.android.gms:play-services-auth:20.7.0] /home/php5/.gradle/caches/transforms-3/4404bb8721373756f4fc8fd34059d6c0/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+276            android:excludeFromRecents="true"
+276-->[com.google.android.gms:play-services-auth:20.7.0] /home/php5/.gradle/caches/transforms-3/4404bb8721373756f4fc8fd34059d6c0/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+277            android:exported="false"
+277-->[com.google.android.gms:play-services-auth:20.7.0] /home/php5/.gradle/caches/transforms-3/4404bb8721373756f4fc8fd34059d6c0/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+278            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+278-->[com.google.android.gms:play-services-auth:20.7.0] /home/php5/.gradle/caches/transforms-3/4404bb8721373756f4fc8fd34059d6c0/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+279        <!--
+280            Service handling Google Sign-In user revocation. For apps that do not integrate with
+281            Google Sign-In, this service will never be started.
+282        -->
+283        <service
+283-->[com.google.android.gms:play-services-auth:20.7.0] /home/php5/.gradle/caches/transforms-3/4404bb8721373756f4fc8fd34059d6c0/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+284            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+284-->[com.google.android.gms:play-services-auth:20.7.0] /home/php5/.gradle/caches/transforms-3/4404bb8721373756f4fc8fd34059d6c0/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+285            android:exported="true"
+285-->[com.google.android.gms:play-services-auth:20.7.0] /home/php5/.gradle/caches/transforms-3/4404bb8721373756f4fc8fd34059d6c0/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+286            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+286-->[com.google.android.gms:play-services-auth:20.7.0] /home/php5/.gradle/caches/transforms-3/4404bb8721373756f4fc8fd34059d6c0/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+287            android:visibleToInstantApps="true" />
+287-->[com.google.android.gms:play-services-auth:20.7.0] /home/php5/.gradle/caches/transforms-3/4404bb8721373756f4fc8fd34059d6c0/transformed/jetified-play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+288
+289        <activity
+289-->[com.google.android.gms:play-services-base:18.0.1] /home/php5/.gradle/caches/transforms-3/680a2964d8a0bce7cbd43c0f88e0420c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+290            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+290-->[com.google.android.gms:play-services-base:18.0.1] /home/php5/.gradle/caches/transforms-3/680a2964d8a0bce7cbd43c0f88e0420c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+291            android:exported="false"
+291-->[com.google.android.gms:play-services-base:18.0.1] /home/php5/.gradle/caches/transforms-3/680a2964d8a0bce7cbd43c0f88e0420c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+292            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+292-->[com.google.android.gms:play-services-base:18.0.1] /home/php5/.gradle/caches/transforms-3/680a2964d8a0bce7cbd43c0f88e0420c/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+293
+294        <meta-data
+294-->[com.google.android.gms:play-services-basement:18.3.0] /home/php5/.gradle/caches/transforms-3/2971e8222b6d8953a900638ba0d233ca/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+295            android:name="com.google.android.gms.version"
+295-->[com.google.android.gms:play-services-basement:18.3.0] /home/php5/.gradle/caches/transforms-3/2971e8222b6d8953a900638ba0d233ca/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+296            android:value="@integer/google_play_services_version" />
+296-->[com.google.android.gms:play-services-basement:18.3.0] /home/php5/.gradle/caches/transforms-3/2971e8222b6d8953a900638ba0d233ca/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+297
+298        <service
+298-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/php5/.gradle/caches/transforms-3/2c53f15285aa65a801130b6392eb6d8b/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+299            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+299-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/php5/.gradle/caches/transforms-3/2c53f15285aa65a801130b6392eb6d8b/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+300            android:exported="false" >
+300-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/php5/.gradle/caches/transforms-3/2c53f15285aa65a801130b6392eb6d8b/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+301            <meta-data
+301-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/php5/.gradle/caches/transforms-3/2c53f15285aa65a801130b6392eb6d8b/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+302                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+302-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/php5/.gradle/caches/transforms-3/2c53f15285aa65a801130b6392eb6d8b/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+303                android:value="cct" />
+303-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/php5/.gradle/caches/transforms-3/2c53f15285aa65a801130b6392eb6d8b/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+304        </service>
+305        <service
+305-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/php5/.gradle/caches/transforms-3/17ed70ac1f92bd04a059ac6b8b9556ea/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+306            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+306-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/php5/.gradle/caches/transforms-3/17ed70ac1f92bd04a059ac6b8b9556ea/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+307            android:exported="false"
+307-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/php5/.gradle/caches/transforms-3/17ed70ac1f92bd04a059ac6b8b9556ea/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+308            android:permission="android.permission.BIND_JOB_SERVICE" >
+308-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/php5/.gradle/caches/transforms-3/17ed70ac1f92bd04a059ac6b8b9556ea/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+309        </service>
+310
+311        <receiver
+311-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/php5/.gradle/caches/transforms-3/17ed70ac1f92bd04a059ac6b8b9556ea/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+312            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+312-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/php5/.gradle/caches/transforms-3/17ed70ac1f92bd04a059ac6b8b9556ea/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+313            android:exported="false" />
+313-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/php5/.gradle/caches/transforms-3/17ed70ac1f92bd04a059ac6b8b9556ea/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+314
+315        <provider
+315-->[androidx.emoji2:emoji2:1.2.0] /home/php5/.gradle/caches/transforms-3/a069e44d9c98fbecf8e5475010c3a44b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+316            android:name="androidx.startup.InitializationProvider"
+316-->[androidx.emoji2:emoji2:1.2.0] /home/php5/.gradle/caches/transforms-3/a069e44d9c98fbecf8e5475010c3a44b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+317            android:authorities="com.example.eschoolapp.androidx-startup"
+317-->[androidx.emoji2:emoji2:1.2.0] /home/php5/.gradle/caches/transforms-3/a069e44d9c98fbecf8e5475010c3a44b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+318            android:exported="false" >
+318-->[androidx.emoji2:emoji2:1.2.0] /home/php5/.gradle/caches/transforms-3/a069e44d9c98fbecf8e5475010c3a44b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+319            <meta-data
+319-->[androidx.emoji2:emoji2:1.2.0] /home/php5/.gradle/caches/transforms-3/a069e44d9c98fbecf8e5475010c3a44b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+320                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+320-->[androidx.emoji2:emoji2:1.2.0] /home/php5/.gradle/caches/transforms-3/a069e44d9c98fbecf8e5475010c3a44b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+321                android:value="androidx.startup" />
+321-->[androidx.emoji2:emoji2:1.2.0] /home/php5/.gradle/caches/transforms-3/a069e44d9c98fbecf8e5475010c3a44b/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+322            <meta-data
+322-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/php5/.gradle/caches/transforms-3/2fcf079b47bda1a88fe11485e860ed3d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+323                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+323-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/php5/.gradle/caches/transforms-3/2fcf079b47bda1a88fe11485e860ed3d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+324                android:value="androidx.startup" />
+324-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/php5/.gradle/caches/transforms-3/2fcf079b47bda1a88fe11485e860ed3d/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+325        </provider>
+326    </application>
+327
+328</manifest>
